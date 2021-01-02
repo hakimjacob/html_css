@@ -1,0 +1,36 @@
+body {
+	background-color: lightsteelblue;
+	text-align: center;
+	font-family: 'Monsterrat', sans-serif;
+	color: black;
+	border: black;
+}
+
+h1 {
+  font-size: 75px;
+  padding-bottom: 5px;
+}
+
+h2 {
+  font-size: 43px;
+}
+
+p {
+  font-size: 25px;
+}
+
+img {
+	border-radius: 50%;
+	size: 70%;
+}
+
+button {
+  background-color: AliceBlue;
+  font-family: 'Monsterrat', sans-serif;
+  font-size: 30px;
+}
+
+button:hover {
+  background-color: SteelBlue;
+  color: snow;
+}
