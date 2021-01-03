@@ -24,13 +24,20 @@ img {
 	size: 70%;
 }
 
-button {
+.button {
   background-color: AliceBlue;
   font-family: 'Monsterrat', sans-serif;
   font-size: 30px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 }
 
-button:hover {
+.button:hover {
   background-color: SteelBlue;
   color: snow;
 }
