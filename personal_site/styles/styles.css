@@ -6,17 +6,19 @@ body {
 	border: black;
 }
 
-h1 {
+.jacob {
   font-size: 75px;
   padding-bottom: 5px;
 }
 
-h2 {
+
+.desc {
   font-size: 43px;
 }
 
 p {
   font-size: 25px;
+  margin: 50px;
 }
 
 img {
@@ -24,7 +26,14 @@ img {
 	size: 70%;
 }
 
+.home {
+  float: right;
+  width: 40%;
+  margin: 0 1.5%
+}
+
 a.button {
+  text-decoration: none;
   background-color: AliceBlue;
   color: black;
   font-family: 'Monsterrat', sans-serif;
