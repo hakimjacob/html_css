@@ -1,42 +1,25 @@
-body {
-	background-color: lightsteelblue;
-	text-align: center;
-	font-family: 'Monsterrat', sans-serif;
-	color: black;
-	border: black;
+article {
+	display: grid;
+	grid-template-columns: 1fr 0.5in [start] 1.25in 6.5in 1.25in [end] 0.5in 1fr;
+	
+	padding: 0.5 0;
 }
 
-.jacob {
-  font-size: 75px;
-  padding-bottom: 5px;
-}
+article * { grid-column: start / end; }
 
-
-.desc {
-  font-size: 43px;
-}
-
-p {
-  font-size: 25px;
-  margin: 50px;
-}
+@media (max-width 8.5in) {
+	article {grid-column-width: 1fr 5% [start] 15% 60% 15% [end] 5% 1fr;}
+} 
 
 img {
-	border-radius: 50%;
-	size: 70%;
-}
-
-.home {
-  float: right;
-  width: 40%;
-  margin: 0 1.5%
+	width: 100%;
 }
 
 a.button {
   text-decoration: none;
   background-color: AliceBlue;
   color: black;
-  font-family: 'Monsterrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   padding: 2px 6px 2px 6px;
   border-top: 1px solid #CCCCCC;
